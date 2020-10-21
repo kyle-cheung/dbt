@@ -1,0 +1,10 @@
+version: 2 
+
+models:
+    - name: citibike_new_york
+      description: test
+      columns:
+        - name: tripduration
+          description: duration of a citibike trip
+          tests:
+                - not_null
